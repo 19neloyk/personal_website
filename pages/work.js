@@ -27,7 +27,7 @@ export default function WorkPage () {
                     <h1 className = {styles.experienceTitle}>
                         popup: foodtrucks and mobile vendors
                     </h1>
-                    <h2>(June 2020 - present)</h2>
+                    <h2>(April 2021 - present)</h2>
                     <h2 className = {styles.experiencePoint}>
                         popup is a platform I made for viewing mobile vendors nearby on both <strong>iOS</strong> and <strong>Android</strong>
                     </h2>
@@ -68,7 +68,7 @@ export default function WorkPage () {
                     <h1 className = {styles.experienceTitle}>
                         TuneDune
                     </h1>
-                    <h2>(June 2020 - present)</h2>
+                    <h2>(May 2020 - present)</h2>
                     <h2 className = {styles.experiencePoint}>
                     TuneDune is used to curate songs for group gatherings;
                      individuals connect their Spotify and Apple Music accounts.
@@ -118,7 +118,7 @@ export default function WorkPage () {
                     <h1 className = {styles.experienceTitle}>
                         Seventh Gear
                     </h1>
-                    <h2>(June 2020 - present)</h2>
+                    <h2>(September 2019 - present)</h2>
                     <h2 className = {styles.experiencePoint}>
                     Seventh Gear is a mobile game where the user has to 
                     quickly fit in a stationary gear to a spinning 
@@ -156,7 +156,7 @@ export default function WorkPage () {
                     <h1 className = {styles.experienceTitle}>
                         Article Based AI Investment
                     </h1>
-                    <h2>(June 2020 - present)</h2>
+                    <h2>(April 2019 - June 2019)</h2>
                     <h2 className = {styles.experiencePoint}>
                     This was an application that read the titles of Tesla articles, 
                     and using a neural network, would make a recommendation to buy, 
@@ -177,7 +177,7 @@ export default function WorkPage () {
                     <h1 className = {styles.experienceTitle}>
                     United Nations 1% for Development App
                     </h1>
-                    <h2>(June 2020 - present)</h2>
+                    <h2>(May 2018 - September 2018)</h2>
                     <h2 className = {styles.experiencePoint}>
                     I jelped a United Nations nonprofit that gave out funding.
                      I proposed and wrote a web app that scored applications
