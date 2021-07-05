@@ -1,0 +1,44 @@
+.container {
+    min-height: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #CAD5FA;
+  }
+
+/*menu filler is to prevent content from going over our menu*/
+.menuFiller {
+    position:relative;
+    width : 25%;
+    min-height: 100vh;
+}
+.menu {
+    position:fixed;
+    z-index:9999999; /*Need high z-index because of position: fixed*/
+    width : 20%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #4261C9;
+}
+
+.menuHeadDiv {
+    height: 20vh;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+
+.menuItemDiv {
+    height: 10vh;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+.content {
+    width: 80%;
+}
