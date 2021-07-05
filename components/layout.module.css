@@ -13,19 +13,20 @@
 }
 .menu {
     position:fixed;
-    z-index:9999999; /*Need high z-index because of position: fixed*/
+    z-index:9999999999; /*Need high z-index because of position: fixed*/
     width : 20%;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: flex-end;
+    padding-right: 8vh;
     background-color: #4261C9;
 }
 
 .menuHeadDiv {
     height: 20vh;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     
@@ -33,7 +34,7 @@
 
 .menuItemDiv {
     height: 10vh;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
 }

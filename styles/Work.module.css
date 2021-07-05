@@ -1,0 +1,43 @@
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.headingDiv {
+    height: 20vh;
+    width: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.eachExperience{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.experienceTitle{
+    padding: 1;
+}
+
+.experiencePoint {
+    padding:1;
+    width: 80vh;
+}
+
+.experiencePictures{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.eachPicture{
+    margin-top: 10vh;
+}

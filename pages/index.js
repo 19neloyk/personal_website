@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.css'
 import Layout from '../components/layout'
 import Image from 'next/image'
 import profilePic from '../public/images/profile.jpg'
+import Spacer from '../components/spacer'
 
 export default function Home() {
   return (
@@ -39,6 +40,11 @@ export default function Home() {
             </a> with one of these ventures. I've also done <a href = "https://www.semanticscholar.org/paper/Distinct-Distances-with-%24%5Cell_p%24-Spaces-AlQady-Chabot/eb4471b06585654ae607b0980342ee4a60a5fd8b">published 
           research</a> at the intersection of cs and mathematics.
           </h2>
+          <h2>Here's my <a href = "https://github.com/19neloyk">Github</a>.</h2>
+          <Spacer/>
+          <Spacer/>
+          <Spacer/>
+          <h2><small>I made this website with Next.js, React, and Node.js by the way</small></h2>
         </div>
       </div>
     </Layout>

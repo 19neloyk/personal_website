@@ -21,13 +21,6 @@ export default function Layout ({children}) {
                     </h1>
                 </div>
                 
-                <div className = {styles.menuItemDiv}>
-                    <h1>
-                        <Link href="/writing">
-                                <a> writing </a>
-                        </Link>
-                    </h1>
-                </div>
 
                 <div className = {styles.menuItemDiv}>
                     <h1>
